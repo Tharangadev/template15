@@ -1,0 +1,23 @@
+@import "../functions";
+@import "../mixings";
+@import "../variables";
+@import "../colors";
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background: linear-gradient($Soft_violet 0%, $Soft_blue 70%);
+}
+.faq {
+  text-align: center;
+  background: #fff;
+  width: 80%;
+  margin: 0 auto;
+  &_details {
+    h1 {
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
