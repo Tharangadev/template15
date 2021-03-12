@@ -170,8 +170,13 @@ body {
   text-decoration: none;
   color: #111;
 }
-.mobileonly {
+.mobile-only {
   @include breakpoint-up(medium) {
+    display: none;
+  }
+}
+.desktop-only {
+  @include breakpoint-down(medium) {
     display: none;
   }
 }
